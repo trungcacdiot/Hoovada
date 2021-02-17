@@ -1,6 +1,6 @@
 
 import './Admin.css';
-import Navigation from "./component/Navigation/Navigation"
+import Navigation from "./Components/MainPage/Navigation/Navigation"
 
 function Admin() {
   return (

@@ -1,16 +1,16 @@
-import Logo from "../../picture_icon/Logo";
-import NavigationMenu from "../../picture_icon/NavigationMenu";
 import "./Navigation.css";
-import TongQuanIcon from "../../picture_icon/TongQuanIcon";
-import QuestionIcon from "../../picture_icon/QuestionIcon";
-import BaiVietIcon from "../../picture_icon/BaiVietIcon";
-import BaoXauIcon from "../../picture_icon/BaoXauIcon";
-import YeuCauIcon from "../../picture_icon/YeuCauIcon";
-import QuanLyChuDeIcon from "../../picture_icon/QuanLyChuDeIcon";
-import QuanLyThanhVienIcon from "../../picture_icon/QuanLyThanhVienIcon";
-import QuanLyQuanTriIcon from "../../picture_icon/QuanLyQuanTriIcon";
-import HideIcon from "../../picture_icon/HideIcon";
-import ThongKeIcon from "../../picture_icon/ThongKeIcon";
+import Logo from "../../../picture_icon/Logo";
+import NavigationMenu from "../../../picture_icon/NavigationMenu";
+import TongQuanIcon from "../../../picture_icon/NavigationIcon/TongQuanIcon";
+import QuestionIcon from "../../../picture_icon/NavigationIcon/QuestionIcon";
+import BaiVietIcon from "../../../picture_icon/NavigationIcon/BaiVietIcon";
+import BaoXauIcon from "../../../picture_icon/NavigationIcon/BaoXauIcon";
+import YeuCauIcon from "../../../picture_icon/NavigationIcon/YeuCauIcon";
+import QuanLyChuDeIcon from "../../../picture_icon/NavigationIcon/QuanLyChuDeIcon";
+import QuanLyThanhVienIcon from "../../../picture_icon/NavigationIcon/QuanLyThanhVienIcon";
+import QuanLyQuanTriIcon from "../../../picture_icon/NavigationIcon/QuanLyQuanTriIcon";
+import HideIcon from "../../../picture_icon/NavigationIcon/HideIcon";
+import ThongKeIcon from "../../../picture_icon/NavigationIcon/ThongKeIcon";
 
 
 function Navigation(){
