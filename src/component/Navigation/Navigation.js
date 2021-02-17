@@ -3,6 +3,14 @@ import NavigationMenu from "../../picture_icon/NavigationMenu";
 import "./Navigation.css";
 import TongQuanIcon from "../../picture_icon/TongQuanIcon";
 import QuestionIcon from "../../picture_icon/QuestionIcon";
+import BaiVietIcon from "../../picture_icon/BaiVietIcon";
+import BaoXauIcon from "../../picture_icon/BaoXauIcon";
+import YeuCauIcon from "../../picture_icon/YeuCauIcon";
+import QuanLyChuDeIcon from "../../picture_icon/QuanLyChuDeIcon";
+import QuanLyThanhVienIcon from "../../picture_icon/QuanLyThanhVienIcon";
+import QuanLyQuanTriIcon from "../../picture_icon/QuanLyQuanTriIcon";
+import HideIcon from "../../picture_icon/HideIcon";
+import ThongKeIcon from "../../picture_icon/ThongKeIcon";
 
 
 function Navigation(){
@@ -13,16 +21,67 @@ function Navigation(){
                 <div className="Navigation_logo_container_admin" >ADMIN</div>
                 <NavigationMenu/>
             </div>
+
             <div className="Navigation_component">
                 <TongQuanIcon/>
                 <div className="Tong_quan_title">Tổng quan</div>
                 <div className="Navigation_line"></div>
             </div>  
+
             <div className="Navigation_component">
                 <QuestionIcon/>
-                <div className="Question_title">Quản lý Câu hỏi</div>
+                <div className="title">Quản lý Câu hỏi</div>
+                <div className="Navigation_line"></div>
+            </div>
+
+            <div className="Navigation_component">
+                <BaiVietIcon/>
+                <div className="title">Quản lý Bài viết</div>
+                <div className="Navigation_line"></div>
+            </div>
+
+            <div className="Navigation_component">
+                <BaoXauIcon/>
+                <div className="title">Báo xấu/trùng lặp</div>
+                <div className="Navigation_line"></div>
+            </div>
+
+            <div className="Navigation_component">
+                <YeuCauIcon/>
+                <div className="title">Yêu cầu</div>
+                <div className="Navigation_line"></div>
+            </div> 
+
+            <div className="Navigation_component">
+                <QuanLyChuDeIcon/>
+                <div className="title">Quản lý Chủ để</div>
+                <div className="Navigation_line"></div>
+            </div> 
+
+            <div className="Navigation_component">
+                <QuanLyThanhVienIcon/>
+                <div className="title">Quản lý Thành viên</div>
+                <div className="Navigation_line"></div>
+            </div> 
+
+            <div className="Navigation_component">
+                <QuanLyQuanTriIcon/>
+                <div className="title">Quản lý Quản trị</div>
+                <div className="Navigation_line"></div>
+            </div>    
+
+            <div className="Navigation_component">
+                <HideIcon/>
+                <div className="title">Câu trả lời đã bị ẩn</div>
                 <div className="Navigation_line"></div>
             </div>  
+
+            <div className="Navigation_component">
+                <ThongKeIcon/>
+                <div className="title">Thống kê & báo cáo</div>
+                <div className="Navigation_line"></div>
+            </div>  
+
         </div>
     )
 }
