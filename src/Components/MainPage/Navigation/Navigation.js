@@ -81,7 +81,7 @@ function Navigation(){
                 <div className="title">Thống kê & báo cáo</div>
                 <div className="Navigation_line"></div>
             </div>  
-
+            <div className="space"></div>
         </div>
     )
 }

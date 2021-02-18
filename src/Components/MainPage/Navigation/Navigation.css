@@ -68,3 +68,8 @@
     overflow: hidden;
     text-overflow: clip;
 }
+
+.space{
+    background-color: #555555;
+    height: 190px;
+}
