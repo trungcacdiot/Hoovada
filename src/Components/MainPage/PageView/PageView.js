@@ -1,5 +1,5 @@
 import "./PageView.css";
-import Header from "./PageView_Components/Header";
+import Header from "./PageView_Components/Header/Header";
 
 function PageView(){
     return(

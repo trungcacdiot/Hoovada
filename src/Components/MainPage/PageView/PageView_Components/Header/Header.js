@@ -1,6 +1,9 @@
-import SearchIcon from "../../../../picture_icon/PageViewIcon/SearchIcon";
-import BellIcon from "../../../../picture_icon/PageViewIcon/BellIcon";
-import MessagesIcon from "../../../../picture_icon/PageViewIcon/MessagesIcon";
+import "./Header.css";
+import SearchIcon from "../../../../../picture_icon/PageViewIcon/SearchIcon";
+import BellIcon from "../../../../../picture_icon/PageViewIcon/BellIcon";
+import MessagesIcon from "../../../../../picture_icon/PageViewIcon/MessagesIcon";
+import ArrowDownIcon from "../../../../../picture_icon/PageViewIcon/ArrowDownIcon";
+
 
 function Header(){
     return(
@@ -21,6 +24,11 @@ function Header(){
                     <p>Tin nhắn</p>
                 </div>
                 <div className="Admin_picture"></div>
+                <div className="Admin_info_header">
+                    <div className="Admin_name">Tam Hoang</div>
+                    <div className="Admin_email">tamhoang139@gmail.com</div>
+                </div>
+                <ArrowDownIcon/>
             </div>
             
         </div>

@@ -1,0 +1,42 @@
+.PageView_header{
+    height: 70px;
+    width: 100%;
+    background-color:  #ffffff ;
+    position: relative;
+     display: flex;
+    justify-content: space-between; 
+}
+.PageView_search{
+    width: 297px;
+    height: 36px;
+    margin-top: 17px;
+    margin-left: 19px;
+    padding-left: 42px;
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    }
+.Search_icon{
+    position: absolute;
+    top: 27px;
+    left: 35px;
+
+}
+.Header_bell_container, .Header_bell, .Header_messages{
+    display: flex;
+}
+
+.Header_bell_container{
+    height: 100%;
+    align-items: center;
+}
+.Admin_picture{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(128, 128, 128);
+}
