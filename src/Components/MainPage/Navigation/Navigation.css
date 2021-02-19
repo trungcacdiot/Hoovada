@@ -5,9 +5,8 @@
   position: relative;
   left: 0px;
   top: 0px;
-}:hover {
-  background-color: #ffffff;
 }
+
 
 .Navigation_logo_container {
   background-color: #b92b27;
@@ -33,8 +32,11 @@
   right: 20.5px;
 }
 
-.Navigation_component:hover .Tong_quan_title  { color: red; }
+.Navigation_component:hover .Tong_quan_title  { color: red;}
 .Navigation_component:hover .title  { color: red; }
+.Navigation_component:hover{
+  background-color: #fff;
+}
 
 .Navigation_line {
   position: absolute;

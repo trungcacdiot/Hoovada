@@ -30,6 +30,7 @@ function Navigation(){
                 <TongQuanIcon/>
                 <div className="Tong_quan_title">Tổng quan</div>
                 <div className="Navigation_line"></div>
+               
             </div>  
 
             <Link to="/Quan-ly-cau-hoi">
