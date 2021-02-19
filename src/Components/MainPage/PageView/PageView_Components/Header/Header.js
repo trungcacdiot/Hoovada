@@ -18,10 +18,12 @@ function Header(){
                 <div className="Header_bell">
                     <img src={BellIcon}/>
                     <p>Thông báo</p>
+                    <div className="Number_bell">25</div>
                 </div>
                 <div className="Header_messages">
                     <MessagesIcon/>
                     <p>Tin nhắn</p>
+                    <div className="Number_messages">12</div>
                 </div>
                 <div className="Admin_picture"></div>
                 <div className="Admin_info_header">

@@ -34,7 +34,9 @@
 .Header_bell_container {
   height: 100%;
   align-items: center;
+  
 }
+
 .Admin_picture {
   height: 40px;
   width: 40px;
@@ -49,6 +51,22 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+}
+.Number_messages{
+    position: absolute;
+    top: -6px;
+    left: 15px;
+    width: 16px;
+    height: 16px;
+    background-color: #B92B27;
+    color: white;
+    font-size: 8px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
 }
 .Header_messages > p {
   font-weight: normal;
@@ -63,6 +81,23 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+}
+.Number_bell{
+    position: absolute;
+    top: -6px;
+    left: 15px;
+    width: 16px;
+    height: 16px;
+    background-color: #B92B27;
+    color: white;
+    font-size: 8px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    
 }
 .Header_bell > p {
   font-weight: normal;
