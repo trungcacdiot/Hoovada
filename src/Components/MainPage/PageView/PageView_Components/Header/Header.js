@@ -1,6 +1,6 @@
 import "./Header.css";
 import SearchIcon from "../../../../../picture_icon/PageViewIcon/SearchIcon";
-import BellIcon from "../../../../../picture_icon/PageViewIcon/BellIcon";
+import BellIcon from "../../../../../picture_icon/PageViewIcon/bell.svg";
 import MessagesIcon from "../../../../../picture_icon/PageViewIcon/MessagesIcon";
 import ArrowDownIcon from "../../../../../picture_icon/PageViewIcon/ArrowDownIcon";
 
@@ -16,7 +16,7 @@ function Header(){
             
             <div className="Header_bell_container">
                 <div className="Header_bell">
-                    <BellIcon/>
+                    <img src={BellIcon}/>
                     <p>Thông báo</p>
                 </div>
                 <div className="Header_messages">
@@ -30,7 +30,6 @@ function Header(){
                 </div>
                 <ArrowDownIcon/>
             </div>
-            
         </div>
     )
 }

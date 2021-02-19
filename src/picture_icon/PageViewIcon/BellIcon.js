@@ -12,7 +12,6 @@ export default function BellIcon(){
             </clipPath>
             </defs>
             </svg>
-
         </div>
     )
 }

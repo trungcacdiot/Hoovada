@@ -1,75 +1,75 @@
-.Navigation_logo_container{
-    background-color: #B92B27;
-    display: flex;
-    width: 237px;
-    height: 70px;
-    position: relative;
+.Navigation_logo_container {
+  background-color: #b92b27;
+  display: flex;
+  width: 237px;
+  height: 70px;
+  position: relative;
 }
-.Navigation_logo_container_admin{
-    color: #fff;
-    font-family: sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    position: absolute;
-    top: 20px;
-    right: 69px;
+.Navigation_logo_container_admin {
+  color: #fff;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  position: absolute;
+  top: 20px;
+  right: 69px;
 }
-.NavigationMenu{
-    position: absolute;
-    top: 25.5px;
-    right: 20.5px;
+.NavigationMenu {
+  position: absolute;
+  top: 25.5px;
+  right: 20.5px;
 }
-.Navigation_component{
-    background: #555555;
-    height: 64px;
-    width: 237px;
-    left: 0px;
-    top: 0px;
-    border-radius: 0px;
-    position: relative;
+.Navigation_component {
+  background: #555555;
+  height: 64px;
+  width: 237px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  position: relative;
 }
-.Navigation_line{
-    position: absolute;
-    left: 5.63%;
-    right: 5.63%;
-    top: 99.22%;
-    bottom: 0%;
-    background: #828282;
+.Navigation_line {
+  position: absolute;
+  left: 5.63%;
+  right: 5.63%;
+  top: 99.22%;
+  bottom: 0%;
+  background: #828282;
 }
-.Tong_quan_title{
-    color: #fff;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    position: absolute;
-    top: 22px;
-    left: 44px;
+.Tong_quan_title {
+  color: #fff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  position: absolute;
+  top: 22px;
+  left: 44px;
 }
-.Navigation_component_icon{
-    position: absolute;
-    top: 23.5px;
-    left: 20px;
+.Navigation_component_icon {
+  position: absolute;
+  top: 23.5px;
+  left: 20px;
 }
-.title{
-    width: 115px;
-    height: 19px;
-    position: absolute;
-    left: 44px;
-    top: 22px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    color: #fff;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: clip;
+.title {
+  width: 115px;
+  height: 19px;
+  position: absolute;
+  left: 44px;
+  top: 22px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
 }
 
-.space{
-    background-color: #555555;
-    height: 190px;
+.space {
+  background-color: #555555;
+  height: 190px;
 }
