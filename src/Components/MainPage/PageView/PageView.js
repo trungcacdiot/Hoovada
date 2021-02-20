@@ -2,7 +2,7 @@ import {Switch, Route} from "react-router-dom";
 
 
 import "./PageView.css";
-import Header from "./PageView_Components/Header/Header"; 
+import Header from "./Header"; 
 
 function PageView(){
     return(

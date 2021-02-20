@@ -1,8 +1,8 @@
 import "./Header.css";
-import SearchIcon from "../../../../../picture_icon/PageViewIcon/SearchIcon";
-import BellIcon from "../../../../../picture_icon/PageViewIcon/bell.svg";
-import MessagesIcon from "../../../../../picture_icon/PageViewIcon/MessagesIcon";
-import ArrowDownIcon from "../../../../../picture_icon/PageViewIcon/ArrowDownIcon";
+import SearchIcon from "../../../picture_icon/PageViewIcon/SearchIcon";
+import BellIcon from "../../../picture_icon/PageViewIcon/bell.svg";
+import MessagesIcon from "../../../picture_icon/PageViewIcon/MessagesIcon";
+import ArrowDownIcon from "../../../picture_icon/PageViewIcon/ArrowDownIcon";
 
 
 function Header(){
